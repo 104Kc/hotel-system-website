@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บจองห้อพักโรงแรม</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md p-4 flex justify-between items-center">
+        <div class="text-2xl font-bold text-blue-500">ระบบจองที่พักโรงแรม</div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="Room/Room.html" class="text-gray-600">ห้องพัก</a></li>
+                <li><a href="#" class="text-gray-600">กิจกรรม</a></li>
+                <li><a href="#" class="text-gray-600">บริการเสริม</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="file:///C:/Users/USER/Documents/GitHub/hotel-system-website/login_system/login.html">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+                    ลงชื่อเข้าใช้
+                </button>
+            </a>                                 
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 flex items-center justify-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?travel,hotel');">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h1 class="text-xl font-bold mb-2">จองห้องพัก</h1>
+            <div class="flex space-x-2">
+                <input type="text" placeholder="เลขห้อง" class="p-2 border rounded-md w-60">
+                <input type="date" class="p-2 border rounded-md">
+                <input type="date" class="p-2 border rounded-md" placeholder="วันที่เช็คเอาท์">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">จอง</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Hotels -->
+    <section class="p-6">
+        <h2 class="text-2xl font-bold text-gray-700 mb-4">ห้องพัก</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?hotel" alt="ชั้น 1" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข01</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 350 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 1" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข02</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 350 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 1" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข03</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 350 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 1" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข04</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 350 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 2" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข05</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 450 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 2" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข06</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 450 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 2" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข07</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 450 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 2" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข08</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 450 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 3" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข09</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 500 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 3" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข10</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 500 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 3" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข11</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 500 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?resort" alt="ชั้น 3" class="w-full h-40 object-cover rounded-md mb-4">
+                <h3 class="text-xl font-semibold">ห้องเลข12</h3>
+                <p class="text-gray-500 mb-4">ราคาเริ่มต้น 500 บาท/คืน</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md">ดูรายละเอียด</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
